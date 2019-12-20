@@ -54,7 +54,7 @@ class FormFilms extends React.Component{
         return(
 
 <div className="FormEmployee">
-  <h1> Films’s entry</h1>
+  <h1> Films’s entry- React 7</h1>
 
   <form onSubmit={this.submitForm}>
     <fieldset>
@@ -82,7 +82,7 @@ class FormFilms extends React.Component{
       </div>
 
       <div className="form-data">
-      <textarea placeholder='Why do you like this film?' rows="4" cols="40" style={{width:"386px"}}
+      <textarea placeholder='Why do you like this film?' rows="4" cols="40" style={{width:  "386px"}}
         type="text"
         id="comment"
         name="comment"
